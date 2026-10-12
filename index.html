@@ -283,6 +283,11 @@
       <span class="t-property">uptime</span>: <span class="t-string">"99.9%"</span>,
       <span class="t-property">manualFulfillmentDrop</span>: <span class="t-string">"-40%"</span>
     },
+    <span class="t-property">lawSikho</span>: {
+      <span class="t-property">stack</span>: <span class="t-string">"Next.js + Supabase + PostgreSQL"</span>,
+      <span class="t-property">focus</span>: <span class="t-string">"Serverless API Routes &amp; RLS Policies"</span>,
+      <span class="t-property">period</span>: <span class="t-string">"June 2025 - July 2025"</span>
+    },
     <span class="t-property">nerdsHive</span>: {
       <span class="t-property">protocol</span>: <span class="t-string">"WebRTC Mesh + Socket.IO + Redis Streams"</span>,
       <span class="t-property">latency</span>: <span class="t-string">"&lt; 50ms"</span>,
@@ -393,7 +398,7 @@
                   </div>
                   <div class="detail-row">
                     <span class="detail-key">Production Experience:</span>
-                    <span class="detail-val">ScriptAssist (UK Healthcare SaaS)</span>
+                    <span class="detail-val">ScriptAssist &amp; LawSikho</span>
                   </div>
                   <div class="detail-row">
                     <span class="detail-key">Featured Project:</span>
@@ -563,6 +568,136 @@
                       <span class="tag">DPD API</span>
                       <span class="tag">PostgreSQL</span>
                       <span class="tag">System Design</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- LawSikho Timeline Entry -->
+            <article class="timeline-entry" aria-labelledby="exp-role-2">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+                <span class="marker-line"></span>
+              </div>
+
+              <div class="timeline-content">
+                <div class="experience-card">
+                  <div class="exp-header">
+                    <div class="exp-role-block">
+                      <div class="exp-company-row">
+                        <h3 class="company-name">LawSikho</h3>
+                        <span class="company-location">India (Remote)</span>
+                      </div>
+                      <div class="exp-title-row">
+                        <h4 id="exp-role-2" class="job-title">Backend Engineering Intern</h4>
+                        <span class="exp-dates">June 2025 – July 2025</span>
+                      </div>
+                    </div>
+                    <div class="exp-focus-badge">
+                      <span class="badge-label">Focus:</span> Serverless backend APIs, database access control &amp; assignment workflows
+                    </div>
+                  </div>
+
+                  <!-- Highlights Grid -->
+                  <div class="exp-impact-grid">
+                    <div class="impact-chip">
+                      <span class="impact-num">Next.js</span>
+                      <span class="impact-text">Server-Side Route Handlers</span>
+                    </div>
+                    <div class="impact-chip">
+                      <span class="impact-num">Supabase</span>
+                      <span class="impact-text">Managed Auth &amp; Webhooks</span>
+                    </div>
+                    <div class="impact-chip">
+                      <span class="impact-num">PostgreSQL</span>
+                      <span class="impact-text">Relational Schema &amp; Indexes</span>
+                    </div>
+                    <div class="impact-chip">
+                      <span class="impact-num">RLS</span>
+                      <span class="impact-text">Row-Level Security Policies</span>
+                    </div>
+                  </div>
+
+                  <!-- Real Engineering Contributions -->
+                  <div class="exp-details">
+                    <h5 class="exp-subheading">Key Engineering Contributions &amp; System Deliverables:</h5>
+                    <ul class="contributions-list">
+                      <li>
+                        <div class="contrib-badge">Serverless API Development</div>
+                        <p class="contrib-desc">
+                          Built and maintained server-side API routes using <strong>Next.js App Router</strong> and <strong>TypeScript</strong> to process student assignment submissions, course material lookups, and evaluation status updates.
+                        </p>
+                      </li>
+                      <li>
+                        <div class="contrib-badge">Data Access &amp; Row-Level Security</div>
+                        <p class="contrib-desc">
+                          Designed relational schemas in <strong>PostgreSQL via Supabase</strong> and implemented granular <strong>Row-Level Security (RLS)</strong> policies, ensuring strict isolation between learner submissions and instructor grading views.
+                        </p>
+                      </li>
+                      <li>
+                        <div class="contrib-badge">Automated Webhooks &amp; Event Sync</div>
+                        <p class="contrib-desc">
+                          Integrated <strong>Supabase Database Triggers</strong> and webhook endpoints to synchronize submission events, triggering automated grading notifications and student status updates without blocking primary request cycles.
+                        </p>
+                      </li>
+                      <li>
+                        <div class="contrib-badge">Query Optimization</div>
+                        <p class="contrib-desc">
+                          Refined SQL queries and composite indexes across frequently accessed assignment tracking tables, minimizing query response overhead for learner dashboard queries.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Architecture Flow Box for LawSikho -->
+                  <div class="architecture-box">
+                    <div class="arch-box-header">
+                      <span class="arch-title">
+                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <polyline points="16 18 22 12 16 6"></polyline>
+                          <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        LawSikho Serverless &amp; Data Security Pipeline
+                      </span>
+                      <span class="arch-tag">Next.js Route Handlers + Supabase RLS</span>
+                    </div>
+                    <div class="arch-flow-diagram" aria-label="LawSikho Backend Pipeline Flow">
+                      <div class="flow-node">
+                        <span class="node-title">Client Requests</span>
+                        <span class="node-sub">Learner Portal</span>
+                      </div>
+                      <div class="flow-arrow" aria-hidden="true">➔</div>
+                      <div class="flow-node highlight">
+                        <span class="node-title">Next.js API Routes</span>
+                        <span class="node-sub">Auth &amp; Validation</span>
+                      </div>
+                      <div class="flow-arrow" aria-hidden="true">➔</div>
+                      <div class="flow-node highlight">
+                        <span class="node-title">Supabase &amp; RLS</span>
+                        <span class="node-sub">Access Isolation</span>
+                      </div>
+                      <div class="flow-arrow" aria-hidden="true">➔</div>
+                      <div class="flow-node">
+                        <span class="node-title">PostgreSQL Store</span>
+                        <span class="node-sub">Triggers &amp; Webhooks</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Tech Stack Tags -->
+                  <div class="exp-tech-footer">
+                    <span class="tech-label">Technologies Used:</span>
+                    <div class="tech-tags">
+                      <span class="tag">Next.js</span>
+                      <span class="tag">Supabase</span>
+                      <span class="tag">PostgreSQL</span>
+                      <span class="tag">TypeScript</span>
+                      <span class="tag">Node.js</span>
+                      <span class="tag">Row-Level Security (RLS)</span>
+                      <span class="tag">REST APIs</span>
+                      <span class="tag">Database Triggers</span>
+                      <span class="tag">SQL</span>
                     </div>
                   </div>
                 </div>
@@ -936,13 +1071,14 @@
                 </div>
                 <div>
                   <h3 class="cat-title">Databases &amp; Caching</h3>
-                  <span class="cat-count">5 technologies</span>
+                  <span class="cat-count">6 technologies</span>
                 </div>
               </div>
               <ul class="skill-pills-list">
                 <li class="skill-pill highlighted"><span class="pill-dot"></span>PostgreSQL</li>
                 <li class="skill-pill highlighted"><span class="pill-dot"></span>MongoDB (Compound Indexing, Lean Queries)</li>
                 <li class="skill-pill highlighted"><span class="pill-dot"></span>Redis</li>
+                <li class="skill-pill highlighted"><span class="pill-dot"></span>Supabase</li>
                 <li class="skill-pill highlighted"><span class="pill-dot"></span>WatermelonDB</li>
                 <li class="skill-pill"><span class="pill-dot"></span>SQLite</li>
               </ul>
